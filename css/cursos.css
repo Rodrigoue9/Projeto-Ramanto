@@ -1,0 +1,12 @@
+.footer-Contato{
+    height: 500px;
+}
+@media (max-width:800px){
+    .footer-Contato{
+        height: 600px;
+    }
+    
+}
+footer{
+    margin-top: 500px;
+}

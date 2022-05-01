@@ -1,0 +1,221 @@
+:root{
+
+    --preto-fosco:#1a1a1a;
+    --Dourado:#FFDF00;
+    --preto-cinza:#343434;
+    --cinza:#C4C4C4;
+    }
+.footer-Contato{
+    font-family: 'Radio Canada', sans-serif;
+    width: 100%;
+    height: 920px;
+    background-color: #222222;
+    margin-top: 50px;
+}
+.h1-footer{
+    display: flex;
+    justify-content: center;
+
+}
+.h1-footer h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--Dourado);
+}
+.Contato1{
+    display: flex;
+
+}
+.contato-empresa{
+    margin-left: 3%;
+    width: 50%;
+    height: 350px;
+}
+.e_mail{
+    width: 50%;
+  color: white;
+    height: 350px;
+}
+.FormFooter{
+    margin-top: 160px;
+  
+}
+.logo-Contato img{
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+}
+.contato-empresa-social {
+margin-left: 20px;
+color: white;
+}
+.contato-empresa-social i{
+   
+    color: white;
+}
+.fa-facebook-square{
+    margin-left: 20px;
+}
+.fa-instagram{
+    margin-left: 20px;
+}
+
+.fa-square-envelope{
+    margin-left: 20px;
+}
+form input{
+    width: 200px;
+    height: 40px;
+    border: 3px solid var(--cinza);
+    background-color: white;
+    border-radius: 15px;
+}
+form button{
+    background-color: white;
+    margin-left: 3%;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    border: 3px solid var(--cinza);
+    height: 48px;
+}
+.equipe-time{
+    display: flex;
+    justify-content: center;
+   
+}
+.equipe-time h1{
+    color: var(--Dourado);
+    font-size: 48px;
+}
+.equipe{
+    width: 100%;
+    height: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+.box1-equipe{
+    color: white;
+    width: 20%;
+    height: 300px;
+    justify-content: space-evenly;
+ border: 3px solid var(--preto-cinza);
+ border-radius: 10px;
+}
+.nome-funcionario-time{
+    display: flex;
+    justify-content: space-between;
+}
+.nome-funcionario-time i{
+    padding: 20px;
+}
+.nome-funcionario-time h2{
+    color: var(--Dourado);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.Quem-e{
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.Quem-e li{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Quem-e i{
+    color: var(--Dourado);
+}
+.fa-linkedin{
+    margin-left: 30px;
+}
+@media (max-width:1220px){
+
+        .box1-equipe{
+            width: 24%;
+            height: 350px;
+        }
+        .footer-Contato{
+            height: 960px;
+        }
+        
+}
+@media (max-width:800px){
+.equipe{
+    justify-content: normal;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+.box1-equipe{
+    width: 50%;
+    margin-top: 20px;
+}
+.footer-Contato{
+    height: 2000px;
+}
+.Contato1{
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.contato-empresa{
+    
+ margin-left: 0;
+    width: 100%;
+}
+.e_mail{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+.contato-empresa-social{
+    margin-left: 0;
+}
+.contato-empresa-social-justify{
+    display: flex;
+    justify-content: center;
+}
+.FormFooter-justify{
+    display: flex;
+    justify-content: center;
+}
+.FormFooter{
+  margin-top: 0;
+}
+.contato-empresa{
+    height: auto;
+}
+
+.logo-Contato img{
+display: flex;
+margin: auto;
+}
+}
+@media (max-width:650px){
+.box1-equipe{
+    width: 70%;
+}
+}
+@media (max-width:402px){
+    .box1-equipe{
+        width: 90%;
+    }
+    .footer-Contato{
+        height: 2250px;
+    }
+}
+@media (max-width:339px){
+form button{
+    margin-left: 0;
+    margin-top: 30px;
+}
+}
+
+@media (max-width:320px){
+    .contato-empresa-social i{
+        margin-left: 4px;
+    }
+
+}
