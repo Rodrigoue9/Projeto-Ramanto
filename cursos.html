@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/nav2.css">
     <link rel="stylesheet" href="css/contato.css">
 <link rel="stylesheet" href="css/cursos.css">
-  
+    <link rel="stylesheet" href="./css/slide.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="css/img-cursos-links-mobile.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;700&display=swap');
     </style>
@@ -18,7 +20,8 @@
 <body>
     <header>
         <div class="imglogo-header">
-            <img src="imagem/logo (1).png" alt="">
+            <a href="index.html">  <img src="imagem/logo.png" alt=""></a>
+            
         </div>
        
     </header>
@@ -27,6 +30,33 @@
             <h1>Ramanto os Melhores cursos do Mercado!
             </h1>
         </div>
+        
+    <section class="grid-section galeria" data-anime="scroll">
+        <ul class="custom-controls">
+            <li><img src="imagem/slide/foto1-thumb.jpg" alt=""></li>
+            <li><img src="imagem/slide/foto2-thumb.jpg" alt=""></li>
+            <li><img src="imagem/slide/foto3-thumb.jpg" alt=""></li>
+            <li><img src="imagem/slide/foto4-thumb.jpg" alt=""></li>
+            <li><img src="imagem/slide/foto5-thumb.jpg" alt=""></li>
+            <li><img src="imagem/slide/foto6-thumb.jpg" alt=""></li>
+        </ul>
+        <div class="slide-wrapper">
+            <ul class="slide">
+                <li><a href="https://www.oprimorico.com.br/curso-do-mil-ao-milhao/" target="_blank">
+                    <img src="imagem/cursos/logo1.jpg" alt=""></a></li>
+                <li><a href="https://www.ev.org.br/cursos/educacao-financeira" target="_blank">
+                    <img src="imagem/cursos/logo2.jpg"   alt=""></a></li>
+                <li><a href="https://www.mepoupemais.com.br/" target="_blank">
+                    <img src="imagem/cursos/logo3.jpg" alt=""></a></li>
+                <li><a href="https://moodle.ifrs.edu.br/course/index.php?categoryid=38" target="_blank">
+                    <img src="imagem/cursos/logo4.jpg" alt=""></a></li>
+                <li><a href="https://educacao-executiva.fgv.br/cursos/online/areas/economia-e-financas" target="_blank">
+                    <img src="imagem/cursos/logo5.jpg" alt=""></a></li>
+                <li><a href="https://cursos.cvm.gov.br/" target="_blank">
+                    <img src="imagem/cursos/logo6.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
         <footer id="Contato">
             <div class="footer-Contato">
                 <div class="h1-footer">
@@ -51,7 +81,7 @@
                         <div class="FormFooter-justify">
                         <div class="FormFooter">
                             <h1>Newsletter</h1>
-                            <p>Adicione seu E-mail para lhe mandarmos noticias.</p>
+                            <p>Adicione seu E-mail para lhe mandarmos notícias.</p>
                             <form action="" method="POST">
                                 <!-- action="https://formsubmit.co/example@huddle.com" -->
                                 <!-- method="POST" -->
@@ -67,5 +97,6 @@
     
         </footer>
         <script src="https://kit.fontawesome.com/abaec65dc3.js" crossorigin="anonymous"></script>
+        <script type="module" src="./js/script.js"></script>
 </body>
 </html>
