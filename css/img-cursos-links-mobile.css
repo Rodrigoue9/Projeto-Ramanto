@@ -1,7 +1,15 @@
-
+.img-mobi{
+    display: none;
+}
 @media (max-width:400px){
     .slide li a img{
         width: 100%;
         height: 400px;
     }
+    .img-mobi{
+        display: inline;
+    }
+.img-desk{
+    display: none;
+}
 }
